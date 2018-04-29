@@ -1,0 +1,74 @@
+@media screen and (height: 1024px), screen and (width: 768px){
+  body {
+    font-size: 1.25em;
+  }
+
+  main {
+    width: 70%;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .personal__info {
+    width: 30%;
+  }
+
+  .header__logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .projects {
+    line-height: 1.2em;
+  }
+
+}
+
+@media screen and (max-height: 360px), screen and (max-width: 640px) {
+  main {
+    width: 100%;
+  }
+
+  h3, p {
+    font-size: 14px;
+  }
+
+  a {
+    display: block;
+    font-size: 13px;
+    clear: both;
+  }
+
+  .header__logo {
+    width: 75px;
+    height: 75px;
+  }
+
+  .personal__info {
+    order: 2;
+    width: 100%;
+  }
+
+  .personal__strength {
+    background-color: #fcfccf;
+  }
+
+  .projects {
+    line-height: 1.5em;
+  }
+
+  .project_thumbnail {
+    width: 100px;
+    height: 100px;
+  }
+}
